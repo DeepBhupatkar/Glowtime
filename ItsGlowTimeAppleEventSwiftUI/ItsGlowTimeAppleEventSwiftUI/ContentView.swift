@@ -26,7 +26,7 @@ struct GlowingView: View {
     @State private var glow = false
     
     let gradient: LinearGradient = LinearGradient(
-        gradient: Gradient(colors: [.blue, .purple, .orange,.pink, .red,.white]),
+        gradient: Gradient(colors: [.blue, .purple, .orange]),
         startPoint: .leading,
         endPoint: .trailing
     )
