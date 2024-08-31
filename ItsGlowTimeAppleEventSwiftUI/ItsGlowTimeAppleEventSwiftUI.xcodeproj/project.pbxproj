@@ -11,7 +11,6 @@
 		2C6E3B922C82ED8000D5CA20 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C6E3B912C82ED8000D5CA20 /* ContentView.swift */; };
 		2C6E3B942C82ED8100D5CA20 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2C6E3B932C82ED8100D5CA20 /* Assets.xcassets */; };
 		2C6E3B972C82ED8100D5CA20 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2C6E3B962C82ED8100D5CA20 /* Preview Assets.xcassets */; };
-		2C6E3B9F2C82EF5000D5CA20 /* CommonSwiftUI in Frameworks */ = {isa = PBXBuildFile; productRef = 2C6E3B9E2C82EF5000D5CA20 /* CommonSwiftUI */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,7 +26,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2C6E3B9F2C82EF5000D5CA20 /* CommonSwiftUI in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -86,7 +84,6 @@
 			);
 			name = ItsGlowTimeAppleEventSwiftUI;
 			packageProductDependencies = (
-				2C6E3B9E2C82EF5000D5CA20 /* CommonSwiftUI */,
 			);
 			productName = ItsGlowTimeAppleEventSwiftUI;
 			productReference = 2C6E3B8C2C82ED8000D5CA20 /* ItsGlowTimeAppleEventSwiftUI.app */;
@@ -117,7 +114,6 @@
 			);
 			mainGroup = 2C6E3B832C82ED7F00D5CA20;
 			packageReferences = (
-				2C6E3B9D2C82EF5000D5CA20 /* XCRemoteSwiftPackageReference "Common_SwiftUI" */,
 			);
 			productRefGroup = 2C6E3B8D2C82ED8000D5CA20 /* Products */;
 			projectDirPath = "";
@@ -352,25 +348,6 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
-
-/* Begin XCRemoteSwiftPackageReference section */
-		2C6E3B9D2C82EF5000D5CA20 /* XCRemoteSwiftPackageReference "Common_SwiftUI" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/Enryun/Common_SwiftUI";
-			requirement = {
-				kind = upToNextMajorVersion;
-				minimumVersion = 1.0.7;
-			};
-		};
-/* End XCRemoteSwiftPackageReference section */
-
-/* Begin XCSwiftPackageProductDependency section */
-		2C6E3B9E2C82EF5000D5CA20 /* CommonSwiftUI */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 2C6E3B9D2C82EF5000D5CA20 /* XCRemoteSwiftPackageReference "Common_SwiftUI" */;
-			productName = CommonSwiftUI;
-		};
-/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 2C6E3B842C82ED7F00D5CA20 /* Project object */;
 }
